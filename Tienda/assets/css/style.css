@@ -1,0 +1,407 @@
+/* Estilos Generales */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif, Helvetica, Arial;
+}
+
+body {
+    background-image: url(../img/bg.png);
+}
+
+a {
+    color: #01B1EA;
+}
+
+a:visited {
+    color: #01B1EA;
+}
+
+a:hover {
+    color: #555555;
+}
+
+.alert_green {
+    padding: 3px;
+    background-color: #008000;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.error_red {
+    margin-top: 5px;
+    padding: 3px;
+    color: #ff0000;
+    border-radius: 4px;
+}
+
+.alert_red {
+    padding: 3px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.epigrafe {
+    margin: 0 auto;
+    width: 38%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(253, 187, 19);
+    text-align: center;
+}
+
+table {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-top: 1px solid #ccc;
+    padding: 5px;
+}
+
+.thumb {
+    width: 150px;
+}
+
+.table-pro:nth-child(even) {
+    background-color: #ddd;
+}
+
+/* Container */
+#container {
+    width: 80%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px #808080;
+    background-color: #ffffff;
+}
+
+/* Header */
+#header {
+    height: 145px;
+    background-color: #f0f0f0;
+}
+
+#logo {
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+
+#logo img {
+    height: 100px;
+}
+
+#logo a {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', Helvetica, Arial;
+    text-transform: uppercase;
+    color: #01B1EA;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 18px;
+    margin-left: 20px;
+    text-shadow: 0px 2px 1px #222222;
+    transition: all 300ms;
+}
+
+#logo a:hover {
+    text-shadow: 0px 2px 1px #222222, 0px 0px 4px #01B1EA;
+}
+
+/* Menu */
+
+#menu {
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    height: 55px;
+    border-bottom: 4px solid #01B1EA;
+}
+
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    height: 55px;
+}
+
+#menu ul li {
+    border-right: 1px solid #363636;
+    height: 55px;
+    line-height: 55px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+}
+
+#menu a:first-child {
+    border-left: 1px solid #555555;
+}
+
+#menu a:hover {
+    transition: all 300ms;
+    background-color: #01B1EA;
+}
+
+/* Content */
+
+
+#content {
+    margin: 0px auto;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+
+/* Barra lateral */
+
+#carrito {
+    margin: 15px 0 30px 0;
+}
+
+#lateral {
+    float: left;
+    width: 22%;
+    min-height: 500px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#lateral .block_aside {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    /* margin: 5px auto;
+    padding: 10px; */
+}
+
+#lateral h3 {
+    display: block;
+    color: #222222;
+    width: 85%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #e1e1e1;
+    border-bottom: 2px solid #01B1EA;
+}
+
+#login ul {
+    margin-top: 15px;
+}
+
+#lista-pedidos li {
+    margin-bottom: 5px;
+}
+
+/* Forms */
+.form-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 80%;
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 0px 2px #CCC inset;
+    padding: 2px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+input[type="button"],
+input[type="submit"],
+button,
+.button {
+    margin-top: 7px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 2px;
+    width: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #2979cd;
+    border: 1px solid #11608e;
+}
+
+.button {
+    background-color: #2cd33a;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.button-small {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.button-gestion {
+    margin: 5px auto;
+    width: 70%;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: rgb(249, 47, 47);
+}
+
+.category {
+    width: 35%;
+}
+
+.button-green {
+    background-color: #2cd33a;
+}
+
+.red {
+    margin-left: 15px;
+    background-color: red;
+}
+
+.unit {
+    color: #222222 !important;
+    background-color: #c1de64;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+
+/* Central */
+
+#central {
+    min-height: 500px;
+    padding: 10px;
+    float: right;
+    width: 74.5%;
+    border-left: 1px solid #CCC;
+    box-shadow: -5px -1px 5px #ddd;
+}
+
+#central h1 {
+    color: #555555;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #CCC;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Product */
+
+.product {
+    width: 31%;
+    float: left;
+    border: 1px solid rgb(234, 218, 218);
+    border-radius: 5px;
+    margin: 5px 10px 10px 5px;
+    text-align: center;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product a {
+    color: black;
+    text-decoration: none;
+}
+
+.product a :hover {
+    color: #555;
+}
+
+.product img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.img_carrito {
+    height: 80px;
+}
+
+.product p {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#detail-product {
+    width: 100%;
+    display: flex;
+}
+
+#detail-product img {
+    height: 400px;
+    width: 400px;
+}
+
+#detail-product .button {
+    width: 200px;
+}
+
+#detail-product .data {
+    margin-left: 30px;
+}
+
+.data h2 {
+    margin-bottom: 15px;
+}
+
+.data p {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Carrito */
+.div-pedido {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-pedido {
+    margin-left: 15px;
+}
